@@ -93,4 +93,4 @@ with gr.Blocks(title="ONE MIND English Learning") as app:
     gr.Markdown("**Student Project Prototype | Seoul Christian University**")
     gr.Markdown("This prototype uses predefined demo responses and is not yet connected to a real AI model.")
 
-app.launch(server_name="0.0.0.0", port=int(__import__("os").environ.get("PORT", 7860)))
+app.launch(server_name="0.0.0.0", server_port=int(__import__("os").environ.get("PORT", 7860)))
